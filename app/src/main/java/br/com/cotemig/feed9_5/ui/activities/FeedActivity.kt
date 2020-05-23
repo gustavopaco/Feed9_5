@@ -19,6 +19,9 @@ class FeedActivity : AppCompatActivity() {
 
         getFeed()
 
+
+
+
     }
 
     fun getFeed(){
