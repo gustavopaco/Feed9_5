@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"/>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/avatar"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:layout_margin="20dp"
+        android:text="20/20/2020"/>
+
+    <TextView
+        android:id="@+id/likes"
+        android:layout_alignBaseline="@id/date"
+        android:layout_toRightOf="@id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+<!--    <LinearLayout-->
+<!--        android:layout_below="@id/date"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginHorizontal="10dp"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <ListView-->
+<!--            android:id="@+id/listalikes"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"/>-->
+
+<!--    </LinearLayout>-->
+
+</RelativeLayout>
